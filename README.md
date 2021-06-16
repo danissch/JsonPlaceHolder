@@ -1,4 +1,4 @@
-# JSON Placeholder Demo with SwiftUI
+# JSON Placeholder Demo with SwiftUI and MVVM
 This project is a demostration for iOS to bring some data from a web service of API https://jsonplaceholder.typicode.com
 
 ### Instalation and Usage
