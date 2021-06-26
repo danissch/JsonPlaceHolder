@@ -22,13 +22,7 @@ struct AlbumListView: View {
                                         .bold()
                                         .italic()
                                         .font(.title3)
-                                        .foregroundColor(
-                                            Color.init(
-                                                red: 0,
-                                                green: 0,
-                                                blue: 0,
-                                                opacity: 0.6)
-                                        ).padding(.horizontal, 7)
+                                        .foregroundColor(.gray).padding(.horizontal, 7)
                                 }.background(
                                     Color.init(
                                         red: 0,
@@ -43,11 +37,7 @@ struct AlbumListView: View {
                                         .bold()
                                         .font(.caption2)
                                         .foregroundColor(
-                                            Color.init(
-                                                red: 0,
-                                                green: 0,
-                                                blue: 0,
-                                                opacity: 0.5)
+                                            .gray.opacity(0.9)
                                         )
                                 }.frame(maxWidth: .infinity, alignment: .topTrailing)
                                 
@@ -57,11 +47,7 @@ struct AlbumListView: View {
                                 .font(.subheadline)
                                 .padding(.all, 7)
                                 .foregroundColor(
-                                    Color.init(
-                                        red: 0,
-                                        green: 0,
-                                        blue: 0,
-                                        opacity: 0.5)
+                                    .gray.opacity(0.5)
                                 )
                                 .frame(alignment: .leading)
                                 .multilineTextAlignment(.leading)

@@ -32,10 +32,7 @@ struct PhotoListView: View {
                                     .bold()
                                     .font(.title3)
                                     .foregroundColor(
-                                        Color.init(red: 0,
-                                                   green: 0,
-                                                   blue: 0,
-                                                   opacity: 0.6)
+                                        .gray
                                     )
                                 
                             }.frame(maxWidth: .infinity, alignment: .topLeading)
@@ -45,10 +42,7 @@ struct PhotoListView: View {
                                     .bold()
                                     .font(.callout)
                                     .foregroundColor(
-                                        Color.init(red: 0,
-                                                   green: 0,
-                                                   blue: 0,
-                                                   opacity: 0.5)
+                                        .gray.opacity(0.7)
                                     )
                             }.frame(maxWidth: .infinity, alignment: .leading)
                             
